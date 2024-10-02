@@ -1,0 +1,326 @@
+.body{
+    background-color: #48556A3F;
+    }
+    .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas: 
+    "erti erti ori sami"
+    "otxi xuti xuti sami";
+    width: 1110px;
+    height: 572px;
+    gap: 20px;
+    
+    
+    }
+    .pirveli{
+        grid-area: erti;
+        border-radius: 8px;
+        background-color: #733FC8;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        padding-left: 32px;
+    
+    }
+    .daniel_surati{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-end;
+    
+    
+    }
+    .daniel_text{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: white;
+        width: 476px;
+        height: 72px;
+        top: 236px;
+        left: 197px;
+        
+    
+    
+    }
+    .daniel_text2{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #CFCFCF;
+        width: 476px;
+        height: 90px;
+        top: 324px;
+        left: 197px;
+        opacity: 0.7px;
+    
+    
+    }
+    .meore{
+        grid-area: ori;
+        border-radius: 8px;
+        background-color:#48556A ;
+        flex-direction: column; 
+        display: flex;
+        padding-left: 32px;
+    }
+    .jona_surati{
+   
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-end;
+
+        
+    
+    }
+    .jona_text{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: white;
+        width: 191px;
+        height: 72px;
+        top: 236px;
+        left: 767px;
+        
+    
+    }
+    .jona_text2{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: white;
+        width: 191px;
+        height: 90px;
+        top: 324px;
+        left: 767px;
+        opacity: 0.7px;
+        
+    
+    }
+    .mesame{
+        grid-area: sami;
+        border-radius: 8px;
+        background-color:white ;
+        flex-direction: column; 
+        display: flex;
+        padding-left: 32px;
+        justify-content: space-evenly;
+    }
+    .kira_surati{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-end;
+
+    
+    }
+    .kira_text{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #48556A;
+        width: 191px;
+        height: 72px;
+        top: 236px;
+        left: 1052px;
+        
+    
+    }
+    .kira_text2{
+            font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #48556A;
+        width: 191px;
+        height: 378px;
+        top: 332px;
+        left: 1052px;
+        opacity: 0.7px;
+        
+    
+    }
+    .meotxe{
+    grid-area: otxi;
+    border-radius: 8px;
+    background-color:white ;
+    flex-direction: column; 
+    display: flex;
+    padding-left: 32px;
+    }
+    .janet_surati{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-end;
+
+    
+    }
+    .janet_text{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #48556A;
+        width: 191px;
+        height: 72px;
+        top: 542px;
+        left: 197px;
+        
+    }
+    .janet_text2{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #48556A;
+        width: 191px;
+        height: 72px;
+        top: 638px;
+        left: 197px;
+        opacity: 0.7px;
+        
+    
+    
+    }
+    .mexute{
+        grid-area: xuti;
+        border-radius: 8px;
+        background-color: #19202D;
+        flex-direction: column; 
+        display: flex;
+        padding-left: 32px;
+        
+    }
+    .patrik_surati{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-end;
+    
+    }
+    .patrik_text{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #ECF2F8;
+        width: 476px;
+        height: 72px;
+        top: 542px;
+        left: 482px;
+        
+    }
+    .patrik_text2{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #FFFFFF;
+        width: 476px;
+        height: 72px;
+        top: 638px;
+        left: 482px;
+        opacity: 0.7px;
+        
+    }
+    .wodeba{
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 11px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 50%;
+
+    }
+
+    .saxeli{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+    color: #FFFFFF;
+    }
+    .saxeli2{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        text-align: left;
+        color: #FFFFFF;
+    
+    }
+    .wodeba2{
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 11px;
+        text-align: left;
+        color: #FFFFFF;
+        opacity: 50%;
+    
+    }
+    .saxeli5{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        text-align: left;
+        color: #FFFFFF;
+    
+    }
+    .wodeba5{
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 11px;
+        text-align: left;
+        color: #FFFFFF;
+        opacity: 50%;
+    }
+    .wodeba3{
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 11px;
+        text-align: left;
+        color:#48556A;
+        opacity: 50%;
+    }    
+    .wodeba4{
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 11px;
+        text-align: left;
+        color:#48556A;
+        opacity: 50%;
+    }
+    .saxeli3{
+        color: #48556A;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        text-align: left;   
+    }
+    .saxeli4{
+        color: #48556A;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        text-align: left;   
+    }
+    
